@@ -69,15 +69,14 @@ GroupDNA-WhatsApp-Chat-Analyzer/
 └── README.md
 ```
 
-##  System Architecture
+## System Architecture
 
 ```mermaid
-
 graph TD
-    %% Styling / Colors
-    classDef inputStyle fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef processStyle fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    classDef outputStyle fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    %% Styling / Colors with Dark Text
+    classDef inputStyle fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000;
+    classDef processStyle fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000;
+    classDef outputStyle fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000;
 
     %% Nodes
     A["Raw WhatsApp Export <br/> (cse_2026_survival_squad_10_members.txt)"]:::inputStyle --> B["Feature 1: Chat Parser <br/> • Line Filtering & Cleaning <br/> • Multi-line & System Msg Handling"]:::processStyle
@@ -99,6 +98,3 @@ graph TD
     D6 --> E
 
     E --> F["Project Deliverables <br/> • Console Output / Summary <br/> • Documentation & README"]:::outputStyle
-
-```
-
