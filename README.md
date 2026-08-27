@@ -57,6 +57,22 @@ The project was intentionally developed using Python fundamentals without relyin
 4. Run all cells sequentially from top to bottom.
 5. View the complete GroupDNA report at the end of the notebook.
 
+
+
+##  Repository Files
+
+```text
+GroupDNA-WhatsApp-Chat-Analyzer/
+│
+├── GroupDNA_PRAVEEN.ipynb
+├── cse_2026_survival_squad_10_members.txt
+└── README.md
+```
+
+##  System Architecture
+
+```mermaid
+
 graph TD
     %% Styling / Colors
     classDef inputStyle fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
@@ -84,11 +100,5 @@ graph TD
 
     E --> F["Project Deliverables <br/> • Console Output / Summary <br/> • Documentation & README"]:::outputStyle
 
-##  Repository Files
+```
 
-```text
-GroupDNA-WhatsApp-Chat-Analyzer/
-│
-├── GroupDNA_PRAVEEN.ipynb
-├── cse_2026_survival_squad_10_members.txt
-└── README.md
